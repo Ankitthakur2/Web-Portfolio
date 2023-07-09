@@ -3,29 +3,31 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-   <div className="form1">
- <div class="container">
-  <h1>Contact</h1>
-  <form action="https://formsubmit.co/ankit.nita.mca@gmail.com" method="POST">
-    <div class="form-group">
-      <div class="form-row">
-        <div class="col">
-          <input type="text" name="name" class="form-control" placeholder="Full Name" required />
+    <div className="form1">
+      <div className="form-container">
+        <div className="title1">
+          <h1> Contact</h1>
         </div>
-        <div class="col">
-          <input type="email" name="email" class="form-control" placeholder="Email Address" required />
+        <div className="content1">
+          <form method="POST">
+            <label> Name</label>
+            <input type="text" placeholder="Name" required />
+            <label> Email</label>
+            <input type="email" placeholder="Email" required />
+            <label> Message</label>
+            <textarea
+              cols="20"
+              rows="8"
+              placeholder="Enter your message!"
+              required
+            ></textarea>
+            <button type="submit" className="button-7">
+              Send Message
+            </button>
+          </form>
         </div>
       </div>
     </div>
-    <div class="form-group">
-      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
-    </div>
-    <button type="submit" class="btn btn-lg btn-primary btn-block">Submit Form</button>
-  </form>
-</div>
-
-    </div>
-   
   );
 };
 
