@@ -1,4 +1,4 @@
-/* /* form {
+/*  form {
   display: flex;
   flex-direction: column;
   padding: 2rem 1rem;
@@ -6,8 +6,8 @@
   /* max-width: 600px; */
   border: 1px solid white;
   border-radius: 5%;
-  /* color: #9c4e4e; */
-} */
+  color: #9c4e4e;
+} 
 
 label {
   color: white;
@@ -41,12 +41,12 @@ form textarea {
   align-items: center;
   padding-top: 3rem;
   padding-bottom: 5rem;
-  /* background-color: rgb(186, 144, 102); */
+   background-color: rgb(186, 144, 102); 
 }
 
-/* .form-container h1 {
+ .form-container h1 {
   color: #9c4e4e;
-} */
+}
 
 @media screen and (max-width: 1040px) {
   .form-container {
