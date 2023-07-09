@@ -38,6 +38,12 @@ const Contact = () => {
               required
             ></textarea>
 
+            <input
+              type="hidden"
+              name="_next"
+              value="https://ankitportfoli.vercel.app/"
+            />    
+                
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_template" value="table" />
             <button type="submit" class="button-7">
