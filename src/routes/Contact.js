@@ -3,17 +3,17 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-    <div className="form1">
+   
 <div class="container">
   <h1>Contact</h1>
   <form target="_blank" action="https://formsubmit.co/" method="POST">
     <div class="form-group">
       <div class="form-row">
         <div class="col">
-          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required />
         </div>
         <div class="col">
-          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required />
         </div>
       </div>
     </div>
@@ -23,7 +23,7 @@ const Contact = () => {
     <button type="submit" class="btn btn-lg btn-primary btn-block">Send Message</button>
   </form>
 </div>
-    </div>
+   
   );
 };
 
