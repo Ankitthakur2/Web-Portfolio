@@ -21,6 +21,9 @@ const Contact = () => {
               placeholder="Enter your message!"
               required
             ></textarea>
+                 <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New submission!">
+    <input type="hidden" name="_template" value="table">
             <button type="submit" className="button-7">
               Send Message
             </button>
