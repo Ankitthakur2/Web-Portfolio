@@ -56,5 +56,9 @@ form textarea {
 
 .form1 {
   overflow-y: auto;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(5, 7, 20);
 }
