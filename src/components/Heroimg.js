@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className="container-about">
           <div className="class-img">
             <img src={pic} class="profile" />
-            <h1>HELLO,MY NAME IS ANKIT THAKUR </h1>
+            <h1>HELLO, MY NAME IS ANKIT THAKUR </h1>
 
             <p> I am a Software Engineer</p>
           </div>
