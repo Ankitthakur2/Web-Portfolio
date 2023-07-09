@@ -4,7 +4,7 @@ import "./contact.css";
 const Contact = () => {
   return (
    <div className="form1">
- <div >
+ <div class="container">
   <h1>Contact</h1>
   <form action="https://formsubmit.co/ankit.nita.mca@gmail.com" method="POST">
     <div class="form-group">
