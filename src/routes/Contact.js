@@ -18,7 +18,7 @@ const Contact = () => {
       </div>
     </div>
     <div class="form-group">
-      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required /></textarea>
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required ></textarea>
     </div>
     <input type="hidden" name="_subject" value="New submission!" />
     <input type="hidden" name="_template" value="table" />
