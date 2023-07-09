@@ -3,7 +3,7 @@ form {
   flex-direction: column;
   padding: 2rem 1rem;
   margin: auto;
-  /* max-width: 600px; */
+  width: 500px;
   border: 1px solid white;
   border-radius: 5%;
   /* color: #9c4e4e; */
@@ -48,9 +48,17 @@ form textarea {
   color: #9c4e4e;
 } */
 
+.title1 {
+  font-size: 10px;
+}
+
 @media screen and (max-width: 1040px) {
   .form-container {
     padding-top: 5rem;
+  }
+
+  form {
+    width: 300px;
   }
 }
 
