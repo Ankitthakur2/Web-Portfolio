@@ -1,0 +1,54 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 7rem;
+}
+
+.container-about h1 {
+  font-size: 50px;
+}
+
+.container-about h2 {
+  font-size: 30px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+.skills li {
+  color: white;
+  margin: 1rem;
+}
+
+.skills h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.name {
+  color: blue;
+}
+
+@media screen and (max-width: 1040px) {
+  .container-about {
+    flex-direction: column;
+  }
+  .class-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

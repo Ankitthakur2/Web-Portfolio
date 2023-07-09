@@ -1,0 +1,191 @@
+.abt-container {
+  overflow-y: auto;
+}
+
+.about-second {
+  background-color: rgb(5, 7, 20);
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+  margin: 3rem;
+}
+
+.intro p {
+  font-size: 80px;
+}
+
+.profession p {
+  font-size: 80px;
+}
+
+.profession {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 3rem;
+}
+
+.mgif {
+  height: 150px;
+  width: 230px;
+
+  border-radius: 1%;
+}
+
+.cgif {
+  height: 150px;
+  width: 230px;
+
+  border-radius: 1%;
+}
+
+.experience {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  background-color: #f6d4ce;
+  color: black;
+  padding-bottom: 2rem;
+}
+
+.experience h1 {
+  color: black;
+  font-weight: 1200;
+  font-size: 30px;
+}
+
+.img1 img {
+  height: 70px;
+  padding: 2px 2px;
+  margin: 0rem 2rem;
+}
+
+.education {
+  /* color: white; */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
+  padding-top: 2rem;
+}
+
+.working {
+  padding-left: 1rem;
+  /* color: white; */
+  /* height: 100vh; */
+  margin-top: 1rem;
+  padding-top: 2rem;
+  padding-right: 1rem;
+}
+
+.working img {
+  border-radius: 3%;
+}
+
+.skillset {
+  padding-left: 1rem;
+  /* height: 100vh; */
+  margin-top: 1rem;
+  padding-top: 2rem;
+  padding-right: 1rem;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.li {
+  /* font-family: "Smokum", cursive; */
+  color: white;
+}
+
+.date {
+  font-family: "Clicker Script", cursive;
+  font-size: 10px;
+}
+
+.job-title {
+  font-family: "Freckle Face", cursive;
+
+  font-size: 20px;
+}
+
+.skill-bg {
+  background-color: lightgray;
+  margin: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5%;
+  height: 40px;
+}
+
+@media screen and (min-width: 1040px) {
+  .li {
+    /* font-family: "Smokum", cursive; */
+    font-size: 20px;
+  }
+
+  .date {
+    font-family: "Clicker Script", cursive;
+    font-size: 10px;
+  }
+
+  .job-title {
+    font-family: "Freckle Face";
+
+    font-size: 20px;
+  }
+}
+
+.dis-para {
+  margin-top: 2rem;
+}
+@media screen and (max-width: 1040px) {
+  .experience {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .working {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .skillset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro p {
+    font-size: 40px;
+  }
+
+  .profession p {
+    font-size: 50px;
+  }
+
+  .mgif {
+    height: 150px;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .experience {
+    padding-top: 2rem;
+  }
+}
