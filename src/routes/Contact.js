@@ -9,7 +9,7 @@ const Contact = () => {
           <h1> Contact</h1>
         </div>
         <div className="content1">
-          <form>
+          <form target="_blank" action="https://formsubmit.co/d6a75e1dc134612f727b2203a70147b3" method="POST">
             <label> Name</label>
             <input type="text" placeholder="Name" required />
             <label> Email</label>
