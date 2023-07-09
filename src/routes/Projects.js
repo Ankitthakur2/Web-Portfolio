@@ -56,7 +56,7 @@ const Projects = () => {
           </div>
 
           <div className="demo">
-            <Link to="https://ankithakurportfolio.vercel.app/">
+            <Link to="https://ankitportfoli.vercel.app/">
               <button className="button-7">Demo </button>
             </Link>
           </div>
