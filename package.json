@@ -21,7 +21,8 @@
     "react-icons": "4.8.0",
     "react-router-dom": "6.10.0",
     "react-scripts": "5.0.1",
-    "webpack": "5.76.3"
+    "webpack": "5.76.3",
+    "react-responsive-carousel": "^3.2.23"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
