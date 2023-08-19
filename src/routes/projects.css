@@ -1,18 +1,79 @@
 .card-list {
   height: 600px;
-  position: relative;
-  margin: 0;
-}
-.card-list.img {
-  height: 800%;
-  display: block;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  width: 60%;
+}
+
+.img {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .img img {
-  height: 500px;
+  height: 400px;
+  width: 100%;
 }
 
 .title {
   font-weight: 600;
+}
+
+@media screen and (max-width: 780px) {
+  .card-list {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel {
+    width: 80%;
+  }
+
+  .img {
+    height: 270px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img img {
+    height: 270px;
+    width: 100%;
+  }
+
+  .title {
+    font-weight: 400;
+  }
+
+  card-list.description {
+    font-weight: 50;
+    font-family: "YourFontFamily", sans-serif;
+    font-size: 10px;
+  }
 }
