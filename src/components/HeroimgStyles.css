@@ -3,6 +3,7 @@
   height: 100vh;
   overflow: hidden;
   width: 100%;
+
 }
 
 .hero-image {
@@ -10,7 +11,7 @@
   height: 100vh;
   object-fit: cover;
   position: absolute;
-  /* top: 4rem; */
+  top: 1rem;
   left: 0rem;
   z-index: -1;
 }
@@ -26,4 +27,27 @@
 
 .class-img p {
   font-family: "Montez", cursive;
+  color: purple;
+}
+
+.class-img h1 {
+  color: red;
+}
+
+.profile {
+  height: 300px;
+  width: 280px;
+
+  border-radius: 50%;
+
+  shadow: 2px;
+}
+
+@media screen and (max-width: 1040px) {
+  
+
+  .profile{
+  height: 250px;
+  width:230px;
+}
 }

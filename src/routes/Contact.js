@@ -1,33 +1,52 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contact.css";
 
 const Contact = () => {
-  const sectionStyle = {
-    backgroundImage: `url("../assets/hero2.jpg")`,
-    backgroundSize: "cover",
-    backgroundPosition: "center"
-  };
-
   return (
-    <div className="form1" style={sectionStyle}>
+    <div className="form1">
       <div className="form-container">
         <div className="title1">
           <h1> Contact</h1>
         </div>
         <div className="content1">
-          <form>
-            <label> Name</label>
-            <input type="text" required />
-            <label> Email</label>
-            <input type="email" required />
-            <label> Message</label>
+          <form
+            target="_blank"
+            action="https://formsubmit.co/ankit.nita.mca@gmail.com"
+            method="POST"
+          >
+            <input
+              type="text"
+              name="name"
+              class="form-control"
+              placeholder="Full Name"
+              required
+            />
+
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              placeholder="Email Address"
+              required
+            />
+
             <textarea
-              cols="20"
-              rows="8"
-              placeholder="Enter your message!"
+              placeholder="Your Message"
+              class="form-control"
+              name="message"
+              rows="7"
               required
             ></textarea>
-            <button type="submit" className="button-7">
+
+            <input
+              type="hidden"
+              name="_next"
+              value="https://ankitportfoli.vercel.app/"
+            />    
+                
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <button type="submit" class="button-7">
               Send Message
             </button>
           </form>

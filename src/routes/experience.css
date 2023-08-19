@@ -1,5 +1,9 @@
 .abt-container {
-  background-color: #f6d4ce;
+  overflow-y: auto;
+}
+
+.about-second {
+  background-color: rgb(5, 7, 20);
 }
 
 .intro {
@@ -132,7 +136,7 @@
   }
 
   .job-title {
-    font-family: "Freckle Face", cursive;
+    font-family: "Freckle Face";
 
     font-size: 20px;
   }
