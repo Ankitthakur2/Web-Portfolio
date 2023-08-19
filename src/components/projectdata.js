@@ -20,11 +20,11 @@ const cardData = {
   card3: {
     imgSrc: "../assets/pic3.png",
     title: "Professional Portfolio",
-    description: `Developed a personal portfolio website using React, HTML, CSS, 
-    and JavaScript to showcase my skills, projects, and 
-    professional experience. The portfolio website serves 
-    as an interactive platform to highlight my background, 
-    and expertise.`
+    description: `Lorem ipsum dolor sit amet, consectetur 
+    adipiscing elit, sed do eiusmod tempor incididunt ut 
+    labore et dolore magna aliqua. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip 
+    ex ea commodo consequat. Duis aute irure dolor in`
   }
 };
 

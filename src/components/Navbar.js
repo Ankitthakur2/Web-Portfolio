@@ -15,60 +15,30 @@ const Navbar = ({ scrollToRef }) => {
 
   window.addEventListener("scroll", changeColor);
 
-  function handleNavItemClick() {
-    if (click) {
-      handleClick(click);
-    }
-  }
-
   return (
     <div className={color ? "header header-bg" : "header"}>
-      {/* <div className="logo">
+      <div className="logo">
         <div className="logo-name">Ankit Thakur</div>
-      </div> */}
+      </div>
 
       <ul className={click ? "navbar active" : "navbar"}>
         <li>
-          <Link
-            href="#home"
-            onClick={() => {
-              scrollToRef("home");
-              handleNavItemClick();
-            }}
-          >
+          <Link href="#home" onClick={() => scrollToRef("home")}>
             Home
           </Link>
         </li>
         <li>
-          <Link
-            href="#about"
-            onClick={() => {
-              scrollToRef("about");
-              handleNavItemClick();
-            }}
-          >
+          <Link href="#about" onClick={() => scrollToRef("about")}>
             About
           </Link>
         </li>
         <li>
-          <Link
-            href="#contact"
-            onClick={() => {
-              scrollToRef("contact");
-              handleNavItemClick();
-            }}
-          >
+          <Link href="#contact" onClick={() => scrollToRef("contact")}>
             Contact
           </Link>
         </li>
         <li>
-          <Link
-            href="#project"
-            onClick={() => {
-              scrollToRef("project");
-              handleNavItemClick();
-            }}
-          >
+          <Link href="#project" onClick={() => scrollToRef("project")}>
             Project
           </Link>
         </li>

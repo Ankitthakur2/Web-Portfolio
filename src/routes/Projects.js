@@ -29,7 +29,6 @@ const Projects = () => {
             </Link>
           </div>
         </div>
-
         <div className="div-btn">
           <div>
             <Card
@@ -56,7 +55,7 @@ const Projects = () => {
           </div>
 
           <div className="demo">
-            <Link to="https://ankitportfoli.vercel.app/">
+            <Link to="">
               <button className="button-7">Demo </button>
             </Link>
           </div>

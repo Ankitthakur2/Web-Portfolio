@@ -1,16 +1,13 @@
 .header {
   display: flex;
-
-  align-items: space-around;
-  justify-content: right;
+  padding: 0rem;
+  align-items: center;
+  justify-content: space-between;
   position: fixed;
-  height: 50px;
-  /* z-index: 10; */
+  height: 30px;
+  z-index: 10;
   width: 100%;
-  top: 0;
-  left: 0;
-  background-color: black;
-  z-index: 9999;
+  padding-top: 0rem;
 }
 
 .header-bg {
@@ -46,17 +43,16 @@
   font-weight: 700;
   letter-spacing: 1px;
   color: white;
-  padding-top: 1.3rem;
-  padding-left: 1rem;
+  /* padding-top: 1.3rem; */
 }
 
 @media screen and (max-width: 1040px) {
   .logo-name {
-    padding-left: 0rem;
+    margin-top: 0rem;
   }
 
   .header {
-    flex-direction: flex-end;
+    width: 96%;
   }
 
   .navbar {
@@ -64,16 +60,15 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* height: 100vh; */
+    height: 100vh;
     position: absolute;
-    top: 2rem;
+    top: 0;
     left: -100%;
     z-index: -3;
     transition: 0.3s;
   }
   .navbar.active {
     left: 0;
-    background-color: black;
   }
   .navbar li {
     padding: 1rem 0;
@@ -81,17 +76,9 @@
 
   .navbar li a {
     font-size: 2rem;
-    color: red;
   }
 
   .hamburger {
     display: initial;
-    margin: 1rem;
   }
 }
-
-/* @media screen and (max-width: 1040px) {
-  .header {
-    height: 33px;
-  }
-} */
