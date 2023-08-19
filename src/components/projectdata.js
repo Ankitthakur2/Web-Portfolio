@@ -1,7 +1,7 @@
 const cardData = {
   card4: {
     imgSrc: require("../assets/Quiz.png"),
-    title: "• Quiz Web App",
+    title: "Quiz Web App",
     description: `Interactive quizzes using React and API. Developed a user-friendly quiz application with React components
     and API integration,`,
   },
