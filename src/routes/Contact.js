@@ -1,59 +1,42 @@
-import React, { useState } from "react";
-import "./contact.css";
+import React from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+import Card from "../components/card.js";
+import cardData from "../components/projectdata.js";
+import { Link } from "react-router-dom";
+import "./projects.css";
 
-const Contact = () => {
+function Projects() {
   return (
-    <div className="form1">
-      <div className="form-container">
-        <div className="title1">
-          <h1> Contact</h1>
-        </div>
-        <div className="content1">
-          <form
-            target="_blank"
-            action="https://formsubmit.co/ankit.nita.mca@gmail.com"
-            method="POST"
-          >
-            <input
-              type="text"
-              name="name"
-              class="form-control"
-              placeholder="Full Name"
-              required
-            />
-
-            <input
-              type="email"
-              name="email"
-              class="form-control"
-              placeholder="Email Address"
-              required
-            />
-
-            <textarea
-              placeholder="Your Message"
-              class="form-control"
-              name="message"
-              rows="7"
-              required
-            ></textarea>
-
-            <input
-              type="hidden"
-              name="_next"
-              value="https://ankitportfoli.vercel.app/"
-            />    
-                
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_template" value="table" />
-            <button type="submit" class="button-7">
-              Send Message
-            </button>
-          </form>
-        </div>
-      </div>
+    <div className="card-list">
+      <h1>Projects</h1>
+      <Carousel
+        autoPlay={true}
+        showThumbs={false}
+        showStatus={false}
+        transitionTime={2}
+        infiniteLoop={true}
+        className="carousel"
+      >
+        {Object.keys(cardData).map((key) => {
+          const card = cardData[key];
+          return (
+            <div className="card" key={key}>
+              <div className="img">
+                <img src={card.imgSrc} alt={card.title} />
+              </div>
+              <div className="title">
+                <h3>{card.title}</h3>
+              </div>
+              <div className="description">
+                <p>{card.description}</p>
+              </div>
+            </div>
+          );
+        })}
+      </Carousel>
     </div>
   );
-};
+}
 
-export default Contact;
+export default Projects;
