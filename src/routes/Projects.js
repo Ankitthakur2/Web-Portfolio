@@ -10,6 +10,7 @@ function Projects() {
   return (
     <div className="card-list">
       <h1>Projects</h1>
+      
       <Carousel
         autoPlay={true}
         showThumbs={false}
@@ -22,8 +23,11 @@ function Projects() {
           const card = cardData[key];
           return (
             <div className="card" key={key}>
+              <a href={card.url}>
               <div className="img">
+               
                 <img src={card.imgSrc} alt={card.title} />
+               
               </div>
               <div className="title">
                 <h3>{card.title}</h3>
@@ -31,6 +35,8 @@ function Projects() {
               <div className="description">
                 <p>{card.description}</p>
               </div>
+              
+              </a>
             </div>
           );
         })}
