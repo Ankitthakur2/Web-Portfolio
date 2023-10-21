@@ -50,6 +50,20 @@ const cardData = {
     JavaScript.`,
     url:"https://ankitthakur2.github.io/Dictionary/",
   },
+  card7: {
+    imgSrc: require("../assets/Video-Record.jpg"),
+    title: "Dictionary Web App",
+    description: `Look up word meanings using an API. Created a user-friendly dictionary interface using HTML, CSS, and
+    JavaScript.`,
+    url:"https://video-recording-using-react.vercel.app/",
+  },
+  card8: {
+    imgSrc: require("../assets/speech-icon.png"),
+    title: "Dictionary Web App",
+    description: `Look up word meanings using an API. Created a user-friendly dictionary interface using HTML, CSS, and
+    JavaScript.`,
+    url:"https://speech-recognition-psi.vercel.app/",
+  },
 };
 
 export default cardData;
