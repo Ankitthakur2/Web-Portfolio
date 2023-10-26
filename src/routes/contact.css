@@ -7,26 +7,35 @@ form {
   border: 1px solid white;
   border-radius: 5%;
   /* color: #9c4e4e; */
+  box-shadow: 0px 0px 10px 5px yellow;
+}
+
+.btn {
+  font-weight: 600;
 }
 
 label {
   color: white;
   margin-bottom: 0.5rem;
+  font-weight: 600;
 }
 
 input[type="text"]::placeholder {
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 
 input[type="email"]::placeholder {
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 
 textarea::placeholder {
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 
 form input,
@@ -35,6 +44,7 @@ form textarea {
   padding: 10px 18px;
   font-size: 1.2rem;
   background-color: lightgray;
+  font-weight: 600;
 }
 
 .form-container {

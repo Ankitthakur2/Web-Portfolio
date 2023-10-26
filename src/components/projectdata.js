@@ -50,6 +50,20 @@ const cardData = {
     JavaScript.`,
     url:"https://ankitthakur2.github.io/Dictionary/",
   },
+  card7: {
+    imgSrc: require("../assets/Video-Record.jpg"),
+    title: "Video Web App",
+    description: `A video recording web application developed with React. 
+    This app enables users to effortlessly record and store videos.`,
+    url:"https://video-recording-using-react.vercel.app/",
+  },
+  card8: {
+    imgSrc: require("../assets/speech-icon.png"),
+    title: "Speech Recognition Web App",
+    description: `A speech-to-text web application built with React, offering users the convenience of converting 
+    spoken language into text with accuracy and efficiency.`,
+    url:"https://speech-recognition-psi.vercel.app/",
+  },
 };
 
 export default cardData;
