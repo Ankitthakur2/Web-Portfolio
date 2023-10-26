@@ -6,6 +6,12 @@
   background-color: rgb(5, 7, 20);
 }
 
+.Intro{
+   color:white;
+  padding:1rem;
+  font-weight:600;
+}
+
 .intro {
   display: flex;
   flex-direction: row;
