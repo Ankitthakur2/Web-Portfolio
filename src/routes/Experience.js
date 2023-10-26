@@ -81,7 +81,7 @@ const Experience = () => {
           <img src={CGIF} alt="computer GIF" className="cgif" />
         </div>
       </div>
-      <div>
+      <div className="Intro">
   I am a software engineer with a passion for creating innovative solutions that drive positive change. I have a Master's degree in Computer Application (MCA) from the prestigious National Institute of Technology Agartala, where I honed my programming, problem-solving, and web development skills. 
 
 I have experience in developing and optimizing various projects at MAQ Software, leveraging my expertise in SQL Server, Power BI, Azure Data Factory, Azure Data Bricks, and Excel. I actively participated in designing and developing robust and interactive Power BI reports and utilizing Azure services to deliver efficient solutions. I also possess a broad technical skill set encompassing C, C++, OOP, Data Structures, Algorithms, HTML, CSS, RDBMS, Azure DevOps, Bootstrap, Node.js, Express.js, React, GitHub, Git, MongoDB, and JavaScript. 
