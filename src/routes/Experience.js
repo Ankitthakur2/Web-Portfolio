@@ -71,7 +71,7 @@ const Experience = () => {
         </div>
       </div>
       <div className="about-second">
-       <p> About</p>
+       <p className="intro"> About</p>
         <div className="intro">
           <p> Born and Brought up in</p>
           <img src={MGIF} alt="Mountain GIF" className="mgif" />
