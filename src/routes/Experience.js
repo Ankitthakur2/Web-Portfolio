@@ -74,9 +74,6 @@ const Experience = () => {
        
         <div className="intro">
           <p className="intro"> About</p>
-          <img src={MGIF} alt="Mountain GIF" className="mgif" />
-        </div>
-
      <div className="Intro">
   I am a software engineer with a passion for creating innovative solutions that drive positive change. I have a Master's degree in Computer Application (MCA) from the prestigious National Institute of Technology Agartala, where I honed my programming, problem-solving, and web development skills. 
 
@@ -84,6 +81,10 @@ I have experience in developing and optimizing various projects at MAQ Software,
 
 I am committed to continuously learning and staying updated with industry trends and best practices. I am actively seeking new opportunities to apply my technical expertise and contribute to a dynamic organization. If you are looking for a dedicated software engineer with a passion for crafting innovative solutions, I would be thrilled to connect with you. Thank you for visiting my profile. Let's connect and explore how we can collaborate to achieve remarkable outcomes together.
   </div>
+          
+        </div>
+
+    
        
       </div>
      
