@@ -154,6 +154,9 @@
   margin-top: 2rem;
 }
 @media screen and (max-width: 1040px) {
+  .intro{
+    flex-direction:column;
+  }
   .experience {
     display: flex;
     flex-direction: column;
@@ -196,8 +199,6 @@
   .experience {
     padding-top: 2rem;
   }
-  .intro{
-    flex-direction:column;
-  }
+  
     
 }
