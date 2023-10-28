@@ -72,7 +72,7 @@ const Experience = () => {
       </div>
       <div className="about-second">
        
-        <div className="intro">
+        <div >
           <p className="intro"> About</p>
      <div className="Intro">
   I am a software engineer with a passion for creating innovative solutions that drive positive change. I have a Master's degree in Computer Application (MCA) from the prestigious National Institute of Technology Agartala, where I honed my programming, problem-solving, and web development skills. 
