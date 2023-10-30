@@ -39,7 +39,19 @@
 }
 
 
+.icon {
+  animation: moveShortUpDown 1s alternate infinite;
+  transform-origin: center;
+}
 
+@keyframes moveShortUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10%);
+  }
+}
 
 
 
