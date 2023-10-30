@@ -48,17 +48,18 @@
 }
 
 .up-down-animation {
-  animation: moveUpDown 2s alternate infinite;
+  animation: moveShortUpDown 1s alternate infinite;
   transform-origin: center;
 }
 
-@keyframes moveUpDown {
+@keyframes moveShortUpDown {
   0% {
-    transform: translateY(50);
+    transform: translateY(0);
   }
   100% {
-    transform: translateY(-50%);
+    transform: translateY(-10%);
   }
 }
+
 
 
