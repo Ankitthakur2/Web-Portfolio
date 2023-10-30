@@ -26,9 +26,37 @@
   }
 }
 
-.right a {
-  margin-right: 1rem;
+
+
+.icon-container {
+  display: flex;
+  align-items: center;
 }
+
+.icon {
+  font-size: 20px; 
+  transition: font-size 0.5s; 
+  margin-right: 10px; 
+  animation: increaseSize 1.5s infinite; 
+}
+
+.icon.icon2 {
+  animation-delay: 1.5s; 
+}
+
+.icon.icon3 {
+  animation-delay: 3s; 
+}
+
+@keyframes increaseSize {
+  0%, 100% {
+    font-size: 20px;
+  }
+  50% {
+    font-size: 40px;
+  }
+}
+
 
 .left p {
   font-family: "Clicker Script";
