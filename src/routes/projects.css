@@ -77,8 +77,8 @@
   }
 
   card-list.description {
-    font-weight: 50;
-    font-family: "YourFontFamily", sans-serif;
-    font-weight: 100;
+    
+      font-family: "Clicker Script";
+   
   }
 }
