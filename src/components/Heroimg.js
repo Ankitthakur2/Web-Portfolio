@@ -5,7 +5,7 @@ import pic from "../assets/Pic.jpg";
 const HeroSection = () => {
   return (
     <div className="hero-container">
-      <img src={heroimg} alt="Hero" className="hero-image" />
+      <img src={heroimg} alt="Hero" className="hero-image up-down-animation" />
       <div className="hero-content">
         <div className="container-about">
           <div className="class-img">
