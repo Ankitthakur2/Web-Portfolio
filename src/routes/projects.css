@@ -35,6 +35,10 @@
   font-weight: 600;
 }
 
+.project-title{
+   font-size:80px;
+}
+
 @media screen and (max-width: 780px) {
   .card-list {
     height: 600px;
