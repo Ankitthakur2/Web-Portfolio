@@ -48,7 +48,7 @@
 }
 
 .up-down-animation {
-  animation: flipUpDown 2s infinite;
+  animation: flipUpDown 5s infinite;
 }
 
 @keyframes flipUpDown {
