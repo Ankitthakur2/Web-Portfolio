@@ -164,6 +164,10 @@
     flex-direction: column;
   }
 
+  .Intro{
+   padding:1rem 0.3rem;
+  }
+
   .education {
     display: flex;
     flex-direction: column;
@@ -202,9 +206,7 @@
     padding-top: 2rem;
   }
 
-  .Intro{
-   padding:1rem 0.3rem;
-  }
+  
   
     
 }
