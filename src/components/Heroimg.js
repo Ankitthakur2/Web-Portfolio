@@ -5,11 +5,11 @@ import pic from "../assets/Pic.jpg";
 const HeroSection = () => {
   return (
     <div className="hero-container">
-      <img src={heroimg} alt="Hero" className="hero-image up-down-animation" />
+      <img src={heroimg} alt="Hero" className="hero-image" />
       <div className="hero-content">
         <div className="container-about">
           <div className="class-img">
-            <img src={pic} class="profile" />
+            <img src={pic} class="profile up-down-animation" />
             <h1>HELLO, MY NAME IS ANKIT THAKUR </h1>
 
             <p> I am a Software Engineer</p>
