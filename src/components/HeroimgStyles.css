@@ -48,18 +48,17 @@
 }
 
 .up-down-animation {
-  animation: flipUpDown 5s infinite;
+  animation: moveUpDown 2s alternate infinite;
+  transform-origin: center;
 }
 
-@keyframes flipUpDown {
+@keyframes moveUpDown {
   0% {
-    transform: scaleY(1);
-  }
-  50% {
-    transform: scaleY(-1);
+    transform: translateY(0);
   }
   100% {
-    transform: scaleY(1);
+    transform: translateY(-50%);
   }
 }
+
 
