@@ -8,13 +8,13 @@ const Footer = () => {
     <div class="footer">
       <div className="icon-container">
         <Link to="https://linkedin.com/in/ankit-thakur-nita" className="icon">
-          <FaLinkedin size={20} />
+          <FaLinkedin size={40} />
         </Link>
         <a href="mailto:ankit.nita.mca@gmail.com" className="icon">
-          <FaEnvelope size={20} />
+          <FaEnvelope size={40} />
         </a>
         <Link to="https://github.com/Ankitthakur2" className="icon">
-          <FaGithub size={20} />
+          <FaGithub size={40} />
         </Link>
       </div>
       <div className="left">
