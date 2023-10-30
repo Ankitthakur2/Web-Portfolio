@@ -9,8 +9,9 @@
 .Intro{
    color:white;
   padding:1rem;
-  font-weight:600;
-  line-height: 3;
+  
+  font-size:30px;
+  line-height: 2;
 }
 
 .intro {
