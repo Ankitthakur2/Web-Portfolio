@@ -6,14 +6,14 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div class="footer">
-      <div className="right">
-        <Link to="https://linkedin.com/in/ankit-thakur-nita">
+      <div className="icon-container">
+        <Link to="https://linkedin.com/in/ankit-thakur-nita" className="icon">
           <FaLinkedin size={20} />
         </Link>
-        <a href="mailto:ankit.nita.mca@gmail.com">
+        <a href="mailto:ankit.nita.mca@gmail.com" className="icon">
           <FaEnvelope size={20} />
         </a>
-        <Link to="https://github.com/Ankitthakur2">
+        <Link to="https://github.com/Ankitthakur2" className="icon">
           <FaGithub size={20} />
         </Link>
       </div>
