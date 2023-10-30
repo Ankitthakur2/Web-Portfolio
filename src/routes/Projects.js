@@ -9,7 +9,7 @@ import "./projects.css";
 function Projects() {
   return (
     <div className="card-list">
-      <h1>Projects</h1>
+      <p className="project-title">Projects</p>
       
       <Carousel
         autoPlay={true}
